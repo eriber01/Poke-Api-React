@@ -1,0 +1,121 @@
+.card-container{
+    height: 93vh;
+    width: 100%;
+    
+    background-image: url("https://images.pexels.com/photos/1310847/pexels-photo-1310847.jpeg?cs=srgb&dl=pexels-vincent-ma-janssen-1310847.jpg&fm=jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* estilos del card */
+.card{
+    width: 25%;
+
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #222831f5;
+    color: white;
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.name{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.card .imgPoke{
+    height: auto;
+    width: 66%;
+    margin: 8%;
+    background-color: white;
+    border-radius: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .imgPoke img{
+
+    width: 60%;
+    height: 80%;
+    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.descargar{
+    background-color: rgb(97, 93, 93);
+    color: black;
+    width: 70%;
+    margin: auto;
+
+    border-radius: 5px;
+    border: none;
+/*    padding: 1px;
+     box-shadow: white 0.5px 0.5px 5px;
+ */
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.descargar:hover{
+    box-shadow: rgba(255, 255, 255, 0.384) 0.3px 0.3px 3px;
+    background-color: rgb(97, 93, 93);
+    color: white;
+}
+
+/* estilos de los datos */
+
+.order{
+    padding-bottom: 2%;
+}
+.dataPoke{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dataPoke .atributos{
+    display: flex;
+    justify-content: center;
+    background-color: #a2b29f;   
+    color: black;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
+.pokedexOrder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pokedexOrder .type{
+    margin-bottom: 1rem;
+    background-color: tomato;
+    width: 25%;
+    padding: 5px;
+    border-radius: 8px;
+}
+.atributos p{
+    text-align: center;
+    padding: 2%;
+}
